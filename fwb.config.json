@@ -2,6 +2,7 @@
   "networks": {
     "baseDevnet": {
       "displayName": "Devnet",
+      "tippingContract": "0x1ae3d825b08c92cf41f361697e051f1afe376159",
       "currencies": {
         "eth": {
           "displayName": "ETH",
@@ -31,6 +32,7 @@
     },
     "base": {
       "displayName": "Base",
+      "tippingContract": "",
       "currencies": {
         "eth": {
           "displayName": "ETH",
@@ -60,6 +62,7 @@
     },
     "mainnet": {
       "displayName": "Ethereum",
+      "tippingContract": "",
       "currencies": {
         "eth": {
           "displayName": "ETH",
@@ -87,5 +90,9 @@
       "stages": [],
       "logoURL": "/ethereumlogo.svg"
     }
+  },
+  "authentication": {
+    "enabled": true,
+    "gracePeriod": 9999999
   }
 }
