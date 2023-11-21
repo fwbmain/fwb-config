@@ -1,0 +1,91 @@
+{
+  "networks": {
+    "baseDevnet": {
+      "displayName": "Devnet",
+      "currencies": {
+        "eth": {
+          "displayName": "ETH",
+          "displayDecimals": 4,
+          "displayFormat": "0,0.[0000]",
+          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "iconName": "ethereum",
+          "suggestedValues": [0.001, 0.003, 0.005, 0.01],
+          "priceFeed": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
+        },
+        "usdc": {
+          "displayName": "USDC",
+          "displayDecimals": 2,
+          "displayFormat": "0,0.[00]",
+          "tokenAddress": "0xa561319ce43bda870a71d379e6502944fbaad76b",
+          "decimals": 6,
+          "iconName": "usdc",
+          "suggestedValues": [1, 5, 10, 25],
+          "priceFeed": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B"
+        }
+      },
+      "rpc": "https://rpc.tenderly.co/fork/cabc62ff-209c-4bc5-b016-69e274d9efdf",
+      "explorer": "https://dashboard.tenderly.co/shared/fork/cabc62ff-209c-4bc5-b016-69e274d9efdf",
+      "stages": ["LOCALHOST", "DEV", "TEST"],
+      "logoURL": "/basebluelogo.svg"
+    },
+    "base": {
+      "displayName": "Base",
+      "currencies": {
+        "eth": {
+          "displayName": "ETH",
+          "displayDecimals": 4,
+          "displayFormat": "0,0.[0000]",
+          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "iconName": "ethereum",
+          "suggestedValues": [0.001, 0.003, 0.005, 0.01],
+          "priceFeed": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
+        },
+        "usdc": {
+          "displayName": "USDC",
+          "displayDecimals": 2,
+          "displayFormat": "0,0.[00]",
+          "tokenAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "decimals": 6,
+          "iconName": "usdc",
+          "suggestedValues": [1, 5, 10, 25],
+          "priceFeed": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B"
+        }
+      },
+      "explorer": "https://basescan.org",
+      "rpc": "https://base.llamarpc.com",
+      "stages": [],
+      "logoURL": "/bsclogo.svg"
+    },
+    "mainnet": {
+      "displayName": "Ethereum",
+      "currencies": {
+        "eth": {
+          "displayName": "ETH",
+          "displayDecimals": 4,
+          "displayFormat": "0,0.[0000]",
+          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "iconName": "ethereum",
+          "suggestedValues": [0.001, 0.003, 0.005, 0.01],
+          "priceFeed": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+        },
+        "usdc": {
+          "displayName": "USDC",
+          "displayDecimals": 2,
+          "displayFormat": "0,0.[00]",
+          "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "decimals": 6,
+          "iconName": "usdc",
+          "suggestedValues": [1, 5, 10, 25],
+          "priceFeed": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6"
+        }
+      },
+      "explorer": "https://etherscan.io",
+      "rpc": "https://eth.llamarpc.com",
+      "stages": [],
+      "logoURL": "/ethereumlogo.svg"
+    }
+  }
+}
