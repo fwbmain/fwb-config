@@ -1,7 +1,9 @@
 {
+  "defaultNetwork": "baseDevnet",
   "networks": {
     "baseDevnet": {
       "displayName": "Devnet",
+      "defaultCurrency": "eth",
       "tippingContract": "0x1ae3d825b08c92cf41f361697e051f1afe376159",
       "currencies": {
         "eth": {
@@ -30,6 +32,7 @@
     },
     "base": {
       "displayName": "Base",
+      "defaultCurrency": "eth",
       "tippingContract": "",
       "currencies": {
         "eth": {
@@ -58,6 +61,7 @@
     },
     "mainnet": {
       "displayName": "Ethereum",
+      "defaultCurrency": "eth",
       "tippingContract": "",
       "currencies": {
         "eth": {
