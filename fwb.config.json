@@ -25,8 +25,8 @@
       },
       "rpc": "https://rpc.tenderly.co/fork/cabc62ff-209c-4bc5-b016-69e274d9efdf",
       "explorer": "https://dashboard.tenderly.co/shared/fork/cabc62ff-209c-4bc5-b016-69e274d9efdf",
-      "stages": ["LOCALHOST", "DEV", "TEST"],
-      "logoURL": "/basebluelogo.svg"
+      "stages": ["LOCALHOST", "DEV", "TEST", "PROD"],
+      "logoURL": "images/basebluelogo.svg"
     },
     "base": {
       "displayName": "Base",
@@ -54,7 +54,7 @@
       "explorer": "https://basescan.org",
       "rpc": "https://base.llamarpc.com",
       "stages": [],
-      "logoURL": "/bsclogo.svg"
+      "logoURL": "images/basebluelogo.svg"
     },
     "mainnet": {
       "displayName": "Ethereum",
@@ -82,7 +82,7 @@
       "explorer": "https://etherscan.io",
       "rpc": "https://eth.llamarpc.com",
       "stages": [],
-      "logoURL": "/ethereumlogo.svg"
+      "logoURL": "images/ethereumlogo.svg"
     }
   },
   "authentication": {
