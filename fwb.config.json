@@ -25,7 +25,7 @@
       },
       "rpc": "https://rpc.tenderly.co/fork/cabc62ff-209c-4bc5-b016-69e274d9efdf",
       "explorer": "https://dashboard.tenderly.co/shared/fork/cabc62ff-209c-4bc5-b016-69e274d9efdf",
-      "stages": ["LOCALHOST", "DEV", "TEST"],
+      "stages": ["LOCALHOST", "DEV", "TEST", "PROD"],
       "logoURL": "/basebluelogo.svg"
     },
     "base": {
