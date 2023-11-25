@@ -56,7 +56,7 @@
       },
       "explorer": "https://basescan.org",
       "rpc": "https://base.llamarpc.com",
-      "stages": [],
+      "stages": ["LOCALHOST", "DEV", "PROD"],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/basebluelogo.svg"
     },
     "mainnet": {
