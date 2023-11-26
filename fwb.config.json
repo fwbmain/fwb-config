@@ -1,5 +1,5 @@
 {
-  "defaultNetwork": "baseDevnet",
+  "defaultNetwork": "base",
   "networks": {
     "baseDevnet": {
       "displayName": "Devnet",
