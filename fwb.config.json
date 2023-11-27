@@ -27,7 +27,7 @@
       },
       "rpc": "https://rpc.tenderly.co/fork/cabc62ff-209c-4bc5-b016-69e274d9efdf",
       "explorer": "https://dashboard.tenderly.co/shared/fork/cabc62ff-209c-4bc5-b016-69e274d9efdf",
-      "stages": ["DEV", "TEST"],
+      "stages": ["DEV", "TEST", "PROD"],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/basebluelogo.svg"
     },
     "base": {
