@@ -55,7 +55,7 @@
         }
       },
       "explorer": "https://basescan.org",
-      "rpc": "https://base.llamarpc.com",
+      "rpc": "https://floral-empty-rain.base-mainnet.quiknode.pro/32f85d4353f4ee6bc4e5fde4aca6c33bbe6865bf",
       "stages": ["LOCALHOST", "DEV", "PROD"],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/basebluelogo.svg"
     },
