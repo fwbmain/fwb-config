@@ -33,7 +33,7 @@
     "base": {
       "displayName": "Base",
       "defaultCurrency": "eth",
-      "tippingContract": "",
+      "tippingContract": "0x6c7B33a96A26Cb11a4B36cC1d41eb3741F6D5cCc",
       "currencies": {
         "eth": {
           "displayName": "ETH",
