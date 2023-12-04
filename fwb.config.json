@@ -30,6 +30,35 @@
       "stages": [],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/basebluelogo.svg"
     },
+    "arbitrum": {
+      "displayName": "Arbitrum",
+      "defaultCurrency": "eth",
+      "tippingContract": "0x6c7B33a96A26Cb11a4B36cC1d41eb3741F6D5cCc",
+      "currencies": {
+        "eth": {
+          "displayName": "ETH",
+          "displayFormat": "0,0.[0000]",
+          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "iconName": "ethereum",
+          "suggestedValues": [0.001, 0.003, 0.005, 0.01],
+          "priceFeed": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612"
+        },
+        "usdc": {
+          "displayName": "USDC",
+          "displayFormat": "0,0.[00]",
+          "tokenAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "decimals": 6,
+          "iconName": "usdc",
+          "suggestedValues": [1, 5, 10, 25],
+          "priceFeed": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
+        }
+      },
+      "explorer": "https://arbiscan.io",
+      "rpc": "https://spring-red-voice.arbitrum-mainnet.quiknode.pro/81c092d1703ae8d9f749911507ee150a01a05948",
+      "stages": ["LOCALHOST", "DEV", "TEST"],
+      "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/arbitrumlogo.svg"
+    },
     "base": {
       "displayName": "Base",
       "defaultCurrency": "eth",
