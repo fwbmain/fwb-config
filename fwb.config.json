@@ -55,7 +55,7 @@
         }
       },
       "explorer": "https://arbiscan.io",
-      "rpc": "https://arbitrum.llamarpc.com",
+      "rpc": "https://spring-red-voice.arbitrum-mainnet.quiknode.pro/81c092d1703ae8d9f749911507ee150a01a05948",
       "stages": ["LOCALHOST", "DEV", "TEST"],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/arbitrumlogo.svg"
     },
