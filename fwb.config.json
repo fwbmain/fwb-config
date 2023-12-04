@@ -42,7 +42,7 @@
           "decimals": 18,
           "iconName": "ethereum",
           "suggestedValues": [0.001, 0.003, 0.005, 0.01],
-          "priceFeed": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612"
+          "priceFeed": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
         },
         "usdc": {
           "displayName": "USDC",
@@ -51,7 +51,7 @@
           "decimals": 6,
           "iconName": "usdc",
           "suggestedValues": [1, 5, 10, 25],
-          "priceFeed": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
+          "priceFeed": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B"
         }
       },
       "explorer": "https://arbiscan.io",
