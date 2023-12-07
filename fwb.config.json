@@ -144,7 +144,7 @@
       "explorer": "https://bscscan.com",
       "rpc": "https://prettiest-dry-feather.bsc.quiknode.pro/3966ef5961f50b064eb3149632d7cad48c55bca3",
       "stages": ["LOCALHOST", "DEV", "TEST"],
-      "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/ethereumlogo.svg"
+      "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/bsclogo.svg"
     },
     "pulsechain": {
       "displayName": "Pulse Chain",
