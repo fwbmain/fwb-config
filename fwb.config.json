@@ -117,7 +117,6 @@
       "stages": [],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/ethereumlogo.svg"
     },
-    ,
        "bsc": {
       "displayName": "Binance Smart Chain",
       "defaultCurrency": "bnb",
