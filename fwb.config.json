@@ -117,12 +117,12 @@
       "stages": [],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/ethereumlogo.svg"
     },
-       "bsc": {
+    "bsc": {
       "displayName": "Binance Smart Chain",
       "defaultCurrency": "bnb",
       "tippingContract": "0x6c7B33a96A26Cb11a4B36cC1d41eb3741F6D5cCc",
       "currencies": {
-        "eth": {
+        "bnb": {
           "displayName": "BNB",
           "displayFormat": "0,0.[000]",
           "tokenAddress": "0x0000000000000000000000000000000000000000",
@@ -146,7 +146,7 @@
       "stages": ["LOCALHOST", "DEV", "TEST"],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/ethereumlogo.svg"
     },
-       "pulsechain": {
+    "pulsechain": {
       "displayName": "Pulse Chain",
       "defaultCurrency": "pls",
       "tippingContract": "0x1aE3D825B08c92cf41f361697e051F1afe376159",
@@ -160,12 +160,12 @@
           "suggestedValues": [20000, 0.003, 0.005, 0.01],
           "priceFeed": "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE"
         },
-        "usdc": {
+        "dai": {
           "displayName": "DAI",
           "displayFormat": "0,0.[00]",
           "tokenAddress": "0xefD766cCb38EaF1dfd701853BFCe31359239F305",
           "decimals": 18,
-          "iconName": "usdc",
+          "iconName": "dai",
           "suggestedValues": [1, 5, 10, 25],
           "priceFeed": "0x51597f405303C4377E36123cBc172b13269EA163"
         }
