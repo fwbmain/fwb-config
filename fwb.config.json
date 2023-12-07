@@ -174,7 +174,7 @@
       "rpc": "https://rpc.pulsechain.com",
       "stages": ["LOCALHOST", "DEV", "TEST"],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/ethereumlogo.svg"
-    },
+    }
   },
   "authentication": {
     "enabled": true,
