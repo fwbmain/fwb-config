@@ -116,7 +116,65 @@
       "rpc": "https://eth.llamarpc.com",
       "stages": [],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/ethereumlogo.svg"
-    }
+    },
+       "bsc": {
+      "displayName": "Binance Smart Chain",
+      "defaultCurrency": "bnb",
+      "tippingContract": "0x6c7B33a96A26Cb11a4B36cC1d41eb3741F6D5cCc",
+      "currencies": {
+        "eth": {
+          "displayName": "BNB",
+          "displayFormat": "0,0.[000]",
+          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "iconName": "bnb",
+          "suggestedValues": [0.005, 0.025, 0.05, 0.1],
+          "priceFeed": ""
+        },
+        "usdc": {
+          "displayName": "USDC",
+          "displayFormat": "0,0.[00]",
+          "tokenAddress": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+          "decimals": 18,
+          "iconName": "usdc",
+          "suggestedValues": [1, 5, 10, 25],
+          "priceFeed": ""
+        }
+      },
+      "explorer": "https://bscscan.com",
+      "rpc": "https://prettiest-dry-feather.bsc.quiknode.pro/3966ef5961f50b064eb3149632d7cad48c55bca3",
+      "stages": ["LOCALHOST", "DEV", "TEST"],
+      "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/bsclogo.svg"
+    },
+       "pulsechain": {
+      "displayName": "Pulse Chain",
+      "defaultCurrency": "pls",
+      "tippingContract": "0x1aE3D825B08c92cf41f361697e051F1afe376159",
+      "currencies": {
+        "eth": {
+          "displayName": "PLS",
+          "displayFormat": "0,0.[0]",
+          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "iconName": "pls",
+          "suggestedValues": [20000, 0.003, 0.005, 0.01],
+          "priceFeed": ""
+        },
+        "usdc": {
+          "displayName": "DAI",
+          "displayFormat": "0,0.[00]",
+          "tokenAddress": "0xefD766cCb38EaF1dfd701853BFCe31359239F305",
+          "decimals": 18,
+          "iconName": "dai",
+          "suggestedValues": [1, 5, 10, 25],
+          "priceFeed": ""
+        }
+      },
+      "explorer": "https://scan.pulsechain.com",
+      "rpc": "https://rpc.pulsechain.com",
+      "stages": ["LOCALHOST", "DEV", "TEST"],
+      "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/pulsechainlogo.png"
+    },
   },
   "authentication": {
     "enabled": true,
