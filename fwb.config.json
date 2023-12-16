@@ -172,7 +172,7 @@
       },
       "explorer": "https://scan.pulsechain.com",
       "rpc": "https://rpc.pulsechain.com",
-      "stages": ["LOCALHOST", "DEV", "TEST"],
+      "stages": [],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/ethereumlogo.svg"
     }
   },
