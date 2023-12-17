@@ -118,7 +118,7 @@
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/ethereumlogo.svg"
     },
     "bsc": {
-      "displayName": "Binance Smart Chain",
+      "displayName": "Binance Chain",
       "defaultCurrency": "bnb",
       "tippingContract": "0x6c7B33a96A26Cb11a4B36cC1d41eb3741F6D5cCc",
       "currencies": {
