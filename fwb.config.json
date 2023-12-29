@@ -208,7 +208,7 @@
           "decimals": 18,
           "iconName": "pls",
           "suggestedValues": [20000, 100000, 200000, 400000],
-          "priceFeed": "0x0000000000000000000000000000000000000000",
+          "priceFeed": "0xE56043671df55dE5CDf8459710433C10324DE0aE",
           "dexscreener": true
         },
         "dai": {
