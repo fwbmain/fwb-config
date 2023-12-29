@@ -52,6 +52,16 @@
           "iconName": "usdc",
           "suggestedValues": [1, 5, 10, 25],
           "priceFeed": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
+        },
+        "levi": {
+          "displayName": "LEVI",
+          "displayFormat": "0,0.[0000]",
+          "tokenAddress": "0x954ac1c73e16c77198e83C088aDe88f6223F3d44",
+          "decimals": 18,
+          "iconName": "levi",
+          "suggestedValues": [1, 5, 10, 25],
+          "priceFeed": "0x606bf2272Ad1772667753bb68B51ec67b166C3F0",
+          "dexscreener": true
         }
       },
       "explorer": "https://arbiscan.io",
