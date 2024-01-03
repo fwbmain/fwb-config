@@ -224,7 +224,7 @@
       },
       "explorer": "https://scan.pulsechain.com",
       "rpc": "https://rpc.pulsechain.com",
-      "stages": ["LOCALHOST", "DEV"],
+      "stages": ["LOCALHOST", "DEV", "PROD"],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/pulselogo.svg"
     }
   },
