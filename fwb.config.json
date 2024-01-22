@@ -174,7 +174,7 @@
       "currencies": {
         "avax": {
           "displayName": "AVAX",
-          "displayFormat": "0,0.[0000]",
+          "displayFormat": "0,0.[000]",
           "tokenAddress": "0x0000000000000000000000000000000000000000",
           "decimals": 18,
           "iconName": "avax",
@@ -189,11 +189,21 @@
           "iconName": "usdc",
           "suggestedValues": [1, 5, 10, 25],
           "priceFeed": "0xF096872672F44d6EBA71458D74fe67F9a77a23B9"
+        },
+        "joe": {
+          "displayName": "JOE",
+          "displayFormat": "0,0.[0000]",
+          "tokenAddress": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+          "decimals": 18,
+          "iconName": "joe",
+          "suggestedValues": [1, 5, 10, 25],
+          "priceFeed": "0x9f8973FB86b35C307324eC31fd81Cf565E2F4a63",
+          "dexscreener": true
         }
       },
       "explorer": "https://snowtrace.io/",
-      "rpc": "https://avalanche.blockpi.network/v1/rpc/public",
-      "stages": ["LOCALHOST", "DEV"],
+      "rpc": "https://nameless-yolo-lake.avalanche-mainnet.quiknode.pro/f7a38e7e71216486572cc98c5c45f2f51c330f35/ext/bc/C/rpc/",
+      "stages": ["LOCALHOST", "DEV", "PROD"],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/avalanchelogo.svg"
     },
     "pulsechain": {
