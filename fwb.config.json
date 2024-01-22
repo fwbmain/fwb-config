@@ -192,7 +192,7 @@
         }
       },
       "explorer": "https://snowtrace.io/",
-      "rpc": "https://avalanche.blockpi.network/v1/rpc/public",
+      "rpc": "https://nameless-yolo-lake.avalanche-mainnet.quiknode.pro/f7a38e7e71216486572cc98c5c45f2f51c330f35/ext/bc/C/rpc/",
       "stages": ["LOCALHOST", "DEV"],
       "logoURL": "https://raw.githubusercontent.com/fwbmain/fwb-config/master/images/avalanchelogo.svg"
     },
