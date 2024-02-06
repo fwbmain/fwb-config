@@ -241,5 +241,19 @@
   "authentication": {
     "enabled": true,
     "gracePeriod": 9999999
+  },
+  "subscriptions": {
+    "defaultCategories": [
+      "general",
+      "degen",
+      "alpha",
+      "gaming",
+      "community",
+      "token",
+      "dao",
+      "launchpad",
+      "nft",
+      "other"
+    ]
   }
 }
